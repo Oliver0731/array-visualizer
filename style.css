@@ -9,8 +9,13 @@ body {
   border: 1px solid grey;
   width: 800px;
   height: 600px;
+  display: flex;
+  align-items: flex-end;
 }
 
 #container div {
   border: 1px solid grey;
+  flex: 1;
+  background-color: orange;
+  text-align: center;
 }
