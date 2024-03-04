@@ -21,11 +21,11 @@ function drawDataArray() {
 }
 
 document.getElementById("container").addEventListener("click", killBar);
-
+let numAdd = 1;
 function killBar() {
   drawDataArray();
   console.log("splice");
-  let numAdd = 1;
   data.push(numAdd);
+  console.log(numAdd);
   numAdd += 1;
 }
